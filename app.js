@@ -150,7 +150,8 @@ function clickHandler(e){
   }
   else{
     var [nextcount,nextDate]=getNextPalindromeDate(date);
-    message.innerText=`Your nearest palindrome birthday is ${nextDate.day}-${nextDate.month}-${nextDate.year} You missed it by ${nextcount} days `;
+    var nextDateProperFormat=convertDatetoStr(nextDate);
+    message.innerText=`Your nearest palindrome birthday is ${nextDateProperFormat.day}-${nextDateProperFormat.month}-${nextDateProperFormat.year} You missed it by ${nextcount} days `;
   }
 
 }
