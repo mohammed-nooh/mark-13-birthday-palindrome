@@ -34,3 +34,23 @@ main {
     display: block;
     margin-top: 1.8rem;
 }
+
+
+
+footer {
+    margin: auto;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    padding: 0px 15px 10px 15px;
+}
